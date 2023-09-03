@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'less1_app',
     'less2_app',
     'hw1_app',
+    'hw2_app',
 ]
 
 MIDDLEWARE = [
