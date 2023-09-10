@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('less1_app.urls')),
     path('', include('less2_app.urls')),
     path('hw/', include('hw1_app.urls')),
+    path('online_shop/', include('hw2_app.urls')),
 ]

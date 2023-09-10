@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/static/css/slyle_main.css">
+ <title>
+        {% block title %}
+        Интернет магазин
+        {% endblock %}
+ </title>
+</head>
+<body>
+
+<div class="menu">
+	<ul class="nav nav-pills justify-content-end align-items-end">
+        <li class="nav-item"><a href="/online_shop/base/"
+                                class="nav-link">Главная</a></li>
+        <li class="nav-item"><a href="/online_shop/orders/"
+                                class="nav-link">Заказы</a></li>
+        <li class="nav-item"><a href="/online_shop/contacts/"
+                                class="nav-link">Контакты</a></li>
+        </ul>
+</div>
+{% block content %}
+    Страница не заполнена
+{% endblock %}
+
+<p class="alert-dark">Все права защищены &copy;</p>
+</body>
+</html>
