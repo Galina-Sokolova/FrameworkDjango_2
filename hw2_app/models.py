@@ -15,14 +15,17 @@ class Client(models.Model):
 
 class Product(models.Model):
     product_name = models.CharField(max_length=100)
-    description = models.TextField()
+    description = models.TextField(default=None)
     price = models.DecimalField(max_digits=8, decimal_places=2)
     count = models.IntegerField()
     date_added_product = models.DateField(auto_now_add=True)
+    image = models.ImageField(upload_to='product_image',
+                              default='default.png',
+                              verbose_name='Изображение')
 
     def __str__(self):
         return f'Product: {self.product_name}, description: {self.description}, price: {self.price},' \
-               f' count: {self.count},date the item was added: {self.date_added_product}'
+               f' count: {self.count}'
 
 
 class Order(models.Model):

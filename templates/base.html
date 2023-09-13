@@ -15,13 +15,19 @@
 	<ul class="nav nav-pills justify-content-end align-items-end">
         <li class="nav-item"><a href="/online_shop/base/"
                                 class="nav-link">Главная</a></li>
+        {% block content %}
         <li class="nav-item"><a href="/online_shop/orders/"
                                 class="nav-link">Заказы</a></li>
+        <li class="parent"><a href="/online_shop/catalog/"
+                                class="nav-link">Каталог</a></li>
+            <ul class="sub-menu">
+                <li><a href="/online_shop/product/add">Добавить товар</a></li>
+            </ul>
         <li class="nav-item"><a href="/online_shop/contacts/"
                                 class="nav-link">Контакты</a></li>
         </ul>
 </div>
-{% block content %}
+
     Страница не заполнена
 {% endblock %}
 
