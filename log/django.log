@@ -3278,3 +3278,10 @@ INFO 2023-09-17 17:20:56,517 basehttp 36036 12620 "GET /admin/jsi18n/ HTTP/1.1" 
 INFO 2023-09-17 17:21:05,097 basehttp 36036 12620 "GET /admin/hw2_app/product/ HTTP/1.1" 200 39910
 INFO 2023-09-17 17:21:05,118 basehttp 36036 12620 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
 INFO 2023-09-17 17:27:25,849 autoreload 36036 27472 C:\Users\79190\pythonProject\FrameworkDjango_2\hw2_app\admin.py changed, reloading.
+INFO 2023-09-17 17:49:51,775 autoreload 8964 2720 Watching for file changes with StatReloader
+INFO 2023-09-17 17:50:02,788 basehttp 8964 22980 "GET /admin/hw2_app/product/ HTTP/1.1" 200 50266
+INFO 2023-09-17 17:50:02,820 basehttp 8964 24112 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+INFO 2023-09-17 17:50:02,820 basehttp 8964 33448 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13404
+INFO 2023-09-17 17:50:02,913 basehttp 8964 22980 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-17 17:50:02,961 basehttp 8964 22980 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+INFO 2023-09-17 17:50:03,007 basehttp 8964 22980 "GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527

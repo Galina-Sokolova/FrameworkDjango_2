@@ -23,4 +23,5 @@ urlpatterns = [
     path('', include('less2_app.urls')),
     path('hw/', include('hw1_app.urls')),
     path('online_shop/', include('hw2_app.urls')),
+    path('__debug__/', include("debug_toolbar.urls")),
 ]
